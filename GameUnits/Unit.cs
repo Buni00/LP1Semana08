@@ -17,7 +17,7 @@ namespace GameUnits
 
         public void Move()
         {
-            Console.WriteLine("A unidade moveu " + movement + " casas.");
+            Console.WriteLine("This Unit moved " + movement + " tiles.");
         }
     }
 }

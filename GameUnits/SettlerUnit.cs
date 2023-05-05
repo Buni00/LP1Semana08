@@ -13,7 +13,7 @@ namespace GameUnits
         }
     }
 }
-Nesta versão modificada, adicionei um construtor na classe SettlerUnit que inicializa a classe base Unit com `movement =
+
 
 
 
