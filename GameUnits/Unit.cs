@@ -17,7 +17,12 @@ namespace GameUnits
 
         public void Move()
         {
-            Console.WriteLine("This Unit moved " + movement + " tiles.");
+            Console.WriteLine("A unidade moveu " + movement + " casas.");
+        }
+
+        public override string ToString()
+        {
+            return GetType().Name + ": HP=" + Health + " COST=" + Cost.ToString("0.00");
         }
     }
 }
